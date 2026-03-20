@@ -29,16 +29,16 @@ const Footer = () => {
             <h4 className="font-semibold text-gold mb-2">संपर्क</h4>
             <p className="text-cream/60 leading-relaxed text-sm">
               अग्रसेन भवन, नीम का थाना <br />
-              <div className="mt-3">
-                <span className="text-gold font-semibold block">रामशरण अग्रवाल</span>
-                <span className="text-xs block mb-1">अग्रवाल समाज कार्यकर्ता</span>
-                <a href="tel:+919799174175" className="text-gold hover:underline block">9799174175</a>
+              <div className="mt-4">
+                <span className="text-gold font-semibold block leading-tight">रामशरण अग्रवाल</span>
+                <span className="text-xs block text-cream/40 mb-1">अग्रवाल समाज कार्यकर्ता</span>
+                <a href="tel:+919799174175" className="text-gold hover:underline block text-sm">9799174175</a>
               </div>
-              <div className="mt-3">
-                <span className="text-gold font-semibold block">वेबसाइट डेवलपर</span>
-                <div className="flex flex-col gap-1 mt-1">
-                  <a href="tel:+918949243066" className="text-gold hover:underline block">8949243066</a>
-                  <a href="tel:+919785492208" className="text-gold hover:underline block">9785492208</a>
+              <div className="mt-4">
+                <span className="text-gold font-semibold block leading-tight">वेबसाइट डेवलपर</span>
+                <div className="flex flex-col gap-0.5 mt-1">
+                  <a href="tel:+918949243066" className="text-gold hover:underline block text-sm">8949243066</a>
+                  <a href="tel:+919785492208" className="text-gold hover:underline block text-sm border-b border-gold/40 w-max">9785492208</a>
                 </div>
               </div>
             </p>

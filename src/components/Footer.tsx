@@ -55,8 +55,9 @@ const Footer = () => {
           
           <div className="mt-6 pt-6 border-t border-cream/5 max-w-xs mx-auto">
             <span className="text-gold font-semibold block leading-tight mb-2">वेबसाइट डेवलपर</span>
-            <div className="flex flex-col gap-1 items-center">
+            <div className="flex gap-4 items-center justify-center">
               <a href="tel:+918949243066" className="text-gold/80 hover:text-gold hover:underline transition-colors">8949243066</a>
+              <span className="text-cream/20">|</span>
               <a href="tel:+919785492208" className="text-gold/80 hover:text-gold hover:underline transition-colors border-b border-gold/30">9785492208</a>
             </div>
           </div>

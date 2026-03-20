@@ -34,13 +34,6 @@ const Footer = () => {
                 <span className="text-xs block text-cream/40 mb-1">अग्रवाल समाज कार्यकर्ता</span>
                 <a href="tel:+919799174175" className="text-gold hover:underline block text-sm">9799174175</a>
               </div>
-              <div className="mt-4">
-                <span className="text-gold font-semibold block leading-tight">वेबसाइट डेवलपर</span>
-                <div className="flex flex-col gap-0.5 mt-1">
-                  <a href="tel:+918949243066" className="text-gold hover:underline block text-sm">8949243066</a>
-                  <a href="tel:+919785492208" className="text-gold hover:underline block text-sm border-b border-gold/40 w-max">9785492208</a>
-                </div>
-              </div>
             </p>
             <div className="rounded-lg overflow-hidden h-[150px] border border-cream/10">
               <iframe
@@ -59,6 +52,14 @@ const Footer = () => {
         <div className="border-t border-cream/10 mt-12 pt-8 text-center text-cream/40 text-sm">
           © 2026 अग्रोहाधाम. सर्वाधिकार सुरक्षित। <br />
           <span className="mt-2 block text-gold/60 italic">यह वेबसाइट फतेहचंद अग्रवाल (मंढोली वाले) की तरफ से अग्रवाल समाज के लिए बनाई गई है।</span>
+          
+          <div className="mt-6 pt-6 border-t border-cream/5 max-w-xs mx-auto">
+            <span className="text-gold font-semibold block leading-tight mb-2">वेबसाइट डेवलपर</span>
+            <div className="flex flex-col gap-1 items-center">
+              <a href="tel:+918949243066" className="text-gold/80 hover:text-gold hover:underline transition-colors">8949243066</a>
+              <a href="tel:+919785492208" className="text-gold/80 hover:text-gold hover:underline transition-colors border-b border-gold/30">9785492208</a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

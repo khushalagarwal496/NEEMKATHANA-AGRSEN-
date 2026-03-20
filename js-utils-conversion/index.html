@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utility Tools Testing</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="application"></div>
+    <div class="container">
+        <h1>Form Utilities Tester</h1>
+        
+        <div class="test-sections">
+            <!-- Form Testing -->
+            <section class="test-card">
+                <h2>Text Length Validator</h2>
+                <div class="input-group">
+                    <input type="text" id="testStrLen" placeholder="Enter string (min 6, max 20)">
+                    <button onclick="testCheckStrLen()">Test checkStrLen()</button>
+                </div>
+                <div id="resStrLen" class="result"></div>
+            </section>
+
+            <!-- Number Test -->
+            <section class="test-card">
+                <h2>Number/Alpha Validator</h2>
+                <div class="input-group">
+                    <input type="text" id="testAlpha" placeholder="Enter alphanumeric text">
+                    <button onclick="testIsNumberAlpha()">Test IsNumberAlpha()</button>
+                </div>
+                <div id="resAlpha" class="result"></div>
+            </section>
+
+            <!-- Currency Test -->
+            <section class="test-card">
+                <h2>Money Formatter</h2>
+                <div class="input-group">
+                    <input type="text" id="testMoney" placeholder="Enter number (e.g., 10000)">
+                    <button onclick="testFMoney()">Test fmoney()</button>
+                </div>
+                <div id="resMoney" class="result"></div>
+            </section>
+        </div>
+    </div>
+    
+    <!-- Dependencies that were expected in the original common.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/layer/3.5.1/layer.js"></script>
+    <script src="./utils.js"></script>
+    <script src="./test-runner.js"></script>
+</body>
+</html>

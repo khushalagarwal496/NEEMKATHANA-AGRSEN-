@@ -48,7 +48,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-cream/10 mt-12 pt-8 text-center text-cream/40 text-sm">
-          © 2024 अग्रोहाधाम. सर्वाधिकार सुरक्षित।
+          © 2026 अग्रोहाधाम. सर्वाधिकार सुरक्षित। <br />
+          <span className="mt-2 block text-gold/60 italic">यह वेबसाइट फतेहचंद अग्रवाल (मंढोली वालों) ने समाज को भेंट की है।</span>
         </div>
       </div>
     </footer>
